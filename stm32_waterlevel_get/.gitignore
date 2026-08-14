@@ -1,0 +1,36 @@
+# ============ Keil 编译输出 ============
+**/Objects/
+**/Listings/
+**/DebugConfig/
+*.o
+*.d
+*.crf
+*.lst
+*.lnp
+*.dep
+*.axf
+*.hex
+*.map
+*.htm
+*.sct
+*.scvd
+*.build_log.htm
+
+# ============ Keil 用户本地配置 ============
+*.uvguix.*
+*.uvgui.*
+*.uvoptx
+
+# ============ VSCode 配置 ============
+.vscode/
+
+# ============ CubeMX 临时文件 ============
+.mxproject
+
+# ============ Windows 系统文件 ============
+Thumbs.db
+desktop.ini
+
+# ============ 编译临时文件夹 ============
+**/Debug/
+**/Release/
